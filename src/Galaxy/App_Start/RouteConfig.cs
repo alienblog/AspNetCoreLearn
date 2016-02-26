@@ -8,7 +8,7 @@ namespace Galaxy
     {
 	    public static void RegisterRoute(IRouteBuilder routes)
 	    {
-            routes.MapRoute("default", "{controller}/{action}");
+            routes.MapRoute("default", "{controller=Home}/{action=Index}");
 		}
     }
 }
